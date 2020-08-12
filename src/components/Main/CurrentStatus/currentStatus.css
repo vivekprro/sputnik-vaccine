@@ -1,0 +1,11 @@
+.status {
+    font-family: inherit;
+    margin: 0;
+    padding: 20px;
+}
+
+.status p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+}

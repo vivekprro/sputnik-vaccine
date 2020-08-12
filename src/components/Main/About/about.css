@@ -1,0 +1,15 @@
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ll {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+    border-radius: 50%;
+}

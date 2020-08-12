@@ -1,0 +1,13 @@
+
+.navbar a {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+.navbar .active {
+    color: #1d99ff;
+}
