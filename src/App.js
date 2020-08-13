@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useState, useEffect} from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ReactGA from 'react-ga'
 
@@ -9,10 +9,12 @@ import Distribution from './components/Main/Distribution/index';
 import Registered from './components/Main/Registered/index';
 import Producing from './components/Main/Producing/index';
 import Status from './components/Main/CurrentStatus/index';
-
+import SideDrawer from './components/Main/Sidedrawer/index'
 import './app.css'
 
 function App(props) {
+
+  const [showSideDrawer, setShowSideDrawer] = useState(false);
 
   useEffect(() => {
     ReactGA.initialize('UA-175206378-1')
@@ -21,12 +23,27 @@ function App(props) {
 
   useEffect(() => {
     console.log(window.location.pathname + window.location.search);
-  }, [])
+  }, []);
+
+  const sideDrawerHandler = () => {
+    setShowSideDrawer(false);
+  }
+
+  const sideDrawerToggleHandler = () => {
+    setShowSideDrawer(!showSideDrawer);
+  }
 
   return (
+
     <Router>
-      <Header />
+      <Header
+        drawerToggle={sideDrawerToggleHandler} />
+
       <main className="main">
+        <SideDrawer
+          open={showSideDrawer}
+          close={sideDrawerHandler} />
+
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/distribution' component={Distribution} />

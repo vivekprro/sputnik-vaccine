@@ -1,4 +1,7 @@
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 13vh;
     width: 100%;
     position: fixed;
@@ -6,13 +9,38 @@
     top: 0;
     left: 0;
     background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 0 150px;
     margin: 0;
     box-sizing: border-box;
     /* border-bottom: 1px solid black; */
     z-index: 90;
+}
+
+.hamburgerIcon {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #f5eeee;
+        padding: 0 30px;
+        /* border-bottom: 1px solid rgb(223, 194, 194); */
+    }
+
+    .title {
+        position: relative;
+        left: 80px;
+    }
+
+    .hamburgerIcon {
+        display: inline;
+    }
+
+    .headerNavbar {
+        display: none;
+    }
 }
 

@@ -4,9 +4,9 @@ import { NavLink } from 'react-router-dom'
 
 import './navbar.css'
 
-const Navbar = () => {
+const Navbar = (props) => {
     return (
-        <div className="navbar">
+        <div className="navbar" onClick={props.close}>
             <NavLink to='/producing'>Who's Producing</NavLink>
             <NavLink to='/status'>Current Status</NavLink>
             <NavLink to='/distribution'>Distribution</NavLink>           

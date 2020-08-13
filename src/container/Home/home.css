@@ -27,9 +27,11 @@
 .headline h1 {
     font-size: 35px;
     font-weight: 800;
+    margin: 30px 0 0 0;
+    padding: 0;
 }
 
-.headline p {
+.headline h3 {
     margin: 30px 0 0 0;
     padding: 0;
     font-size: 16px;
@@ -43,7 +45,8 @@
     justify-content: flex-start;
     align-items: flex-start;
     box-sizing: border-box;
-    margin: 20px 0;
+    margin: 0;
+    padding: 0;
 }
 
 .sub-headline div {
@@ -88,6 +91,64 @@
 
 .blue {
     background-color: blue;
+}
+
+@media (max-width: 500px) {
+
+    .home {
+        flex-direction: column;
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .home img {
+        border-radius: 100%;
+        width: 330px;
+        height: 280px;
+        margin: 0;
+    }
+
+    .headline {
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .headline h1 {
+        text-align: center;
+    }
+
+    .headline h3 {
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 28px;
+        margin: 10px 0 0 0;
+    }
+
+    .sub-headline {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        box-sizing: border-box;
+        margin: 20px 0;
+    }
+
+    .sub-headline div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 300px;
+        height: 170px;
+        margin: 10px 0;
+        padding: 50px 0;
+        border: 1px solid rgb(219, 202, 202);
+        border-radius: 50%;
+        box-sizing: border-box;
+    }
+
+
+
 }
 
 

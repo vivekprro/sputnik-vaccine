@@ -26,7 +26,7 @@ console.log(window.location.pathname + window.location.search);
                         <p>Short time fever</p>
                     </div>
                 </div>
-                <p>Russia had become the world's first country to grant regulatory approval to a COVID-19 vaccine after less than two months of human testing, a move hailed by Moscow as evidence of its scientific prowess.</p>
+                <h3>Russia had become the world's first country to grant regulatory approval to a COVID-19 vaccine after less than two months of human testing, a move hailed by Moscow as evidence of its scientific prowess.</h3>
             </div>
         </div>
     )
