@@ -1,0 +1,43 @@
+.homePageContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    min-height: 82vh;
+    padding: 120px 60px;
+    box-sizing: border-box;
+    background: url('../../../assets/images/vaccine-5.jpg') no-repeat 100% transparent;
+    background-size: 100% 82vh;
+}
+
+.homePageContent h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+.learnMore {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.learnMore:focus {
+    outline: none;
+}
+
+.learnMore:hover {
+    color: black;
+    background-color: blanchedalmond;
+}

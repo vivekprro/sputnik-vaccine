@@ -12,7 +12,7 @@ const MainContent = (props) => {
 
     return (
         <MainContentStyle>
-            <h1>World's First Covid-19 Vaccine</h1>
+            <h1>World's First Registered Covid-19 Vaccine</h1>
             <h2>Sputnik Vaccine</h2>
             <div className="banner">
                 {

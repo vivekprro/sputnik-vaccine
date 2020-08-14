@@ -12,7 +12,7 @@ const HeaderStyle = Styled.div `
     top: 0;
     left: 0;
     background-color: rgb(255, 255, 255);
-    padding: 0 150px;
+    padding: 0 50px;
     margin: 0;
     box-sizing: border-box;
     /* border-bottom: 1px solid black; */

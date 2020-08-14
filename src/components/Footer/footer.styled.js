@@ -7,18 +7,18 @@ const FooterStyle = Styled.div `
     font-size: 10px;
     width: 100%;
     height: 5vh;
-    background-color: #e67c7c;
-    color: white;
+    background-color: black;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
     p {
+        color: #ffffff;
         font-size: 10px;
         font-weight: 400;
+        align-items: center;
     }
 
 `;

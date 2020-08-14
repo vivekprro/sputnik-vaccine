@@ -17,6 +17,12 @@ import HeaderMobile from './Mobile/components/Header/index'
 import FooterMobile from './Mobile/components/Footer/index'
 import SideDrawer from './Mobile/components/Sidedrawer/index';
 
+import VaccineMobile from './Mobile/components/Main/Vaccine/index'; 
+import ClinicalTrialsMobile from './Mobile/components/Main/ClinicalTrials/index'; 
+import AdenoviralMobile from './Mobile/components/Main/AdenoviralVaccines/index'; 
+import NewsRoomMobile from './Mobile/components/Main/NewsRoom/index'; 
+import FaqMobile from './Mobile/components/Main/FAQ/index'; 
+
 import './app.css'
 
 function App(props) {
@@ -46,6 +52,11 @@ function App(props) {
             close={sideDrawerHandler} />
           <Switch>
             <Route path='/' exact component={HomeMobile} />
+            <Route path='/vaccine' component={VaccineMobile} />
+            <Route path='/' component={ClinicalTrialsMobile} />
+            <Route path='/clinical-trials' component={AdenoviralMobile} />
+            <Route path='/news-room' component={NewsRoomMobile} />
+            <Route path='/faq' component={FaqMobile} />
           </Switch>
         </main>
         <FooterMobile />
@@ -57,7 +68,6 @@ function App(props) {
 
     <Router>
       <Header />
-
       <main className="main">
         <Switch>
           <Route path='/' exact component={Home} />
