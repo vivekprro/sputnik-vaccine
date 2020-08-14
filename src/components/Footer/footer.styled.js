@@ -1,4 +1,7 @@
-.footer {
+import Styled from 'styled-components'
+
+const FooterStyle = Styled.div `
+
     position: relative;
     font-family: inherit;
     font-size: 10px;
@@ -12,14 +15,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
 
-.footer p {
-    font-size: 10px;
-    font-weight: 400;
-}
+    p {
+        font-size: 10px;
+        font-weight: 400;
+    }
 
-@media (max-width: 500px) {
-   
-    
-}
+`;
+
+export default FooterStyle

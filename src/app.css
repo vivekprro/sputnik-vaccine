@@ -4,11 +4,11 @@
     align-items: center; */
     min-height: 82vh;
     margin: 13vh 0 0 0;
-    padding: 0 150px;
+    /* padding: 0 150px; */
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
     .main {
         padding: 0 30px;
     }
-}
+} */

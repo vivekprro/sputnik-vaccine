@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiOutlineClose } from "react-icons/ai";
 
-import Navbar from '../../Header/Navbar/index'
+import Navigation from '../Navigation/index'
 import Backdrop from './Backdrop/index'
 import SideDrawerStyle from './sideDrawer.styled';
 
@@ -16,7 +16,7 @@ const SideDrawer = (props) => {
                     <AiOutlineClose color="white" size="35px" />
                 </div>
                 <h1 onClick={props.close} >Sputnik V</h1>
-                <Navbar close={props.close} />
+                <Navigation close={props.close} />
             </SideDrawerStyle >
         </div>
     )

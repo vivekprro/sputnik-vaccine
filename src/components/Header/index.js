@@ -1,25 +1,20 @@
 import React from 'react';
-import { GiHamburgerMenu } from "react-icons/gi";
-
 
 import Logo from './Logo/index'
 import Navbar from './Navbar/index'
-import './header.css';
+import HeaderStyle from './header.styled';
 
 
 const Header = (props) => {
     return (
-        <div className="header">
-            <div className="hamburgerIcon">
-                <GiHamburgerMenu size="30px" onClick={props.drawerToggle} />
-            </div>
+        <HeaderStyle>
             <div className="title">
                 <Logo />
             </div>
             <div className="headerNavbar">
                 <Navbar />
             </div>
-        </div>
+        </HeaderStyle>
     )
 }
 
