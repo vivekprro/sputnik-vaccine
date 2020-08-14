@@ -6,16 +6,15 @@ import ReactGA from 'react-ga';
 import Home from './container/Home/index'
 import Header from './components/Header/index'
 import Footer from './components/Footer/index'
-import Distribution from './components/Main/Distribution/index';
-import Registered from './components/Main/Registered/index';
-import Producing from './components/Main/Producing/index';
-import Status from './components/Main/CurrentStatus/index';
-// import SideDrawer from './components/Main/Sidedrawer/index';
-
 import HomeMobile from './Mobile/components/MainContent/index'
 import HeaderMobile from './Mobile/components/Header/index'
 import FooterMobile from './Mobile/components/Footer/index'
 import SideDrawer from './Mobile/components/Sidedrawer/index';
+import AboutVaccine from './container/AboutVaccine/index'
+import AdenoviralVaccines from './container/AdenoviralVaccines/index'
+import ClinicalTrials from './container/ClinicalTrials/index'
+import NewsRoom from './container/NewsRoom/index'
+import FAQ from './container/FAQ/index'
 
 import VaccineMobile from './Mobile/components/Main/Vaccine/index'; 
 import ClinicalTrialsMobile from './Mobile/components/Main/ClinicalTrials/index'; 
@@ -52,7 +51,7 @@ function App(props) {
             close={sideDrawerHandler} />
           <Switch>
             <Route path='/' exact component={HomeMobile} />
-            <Route path='/vaccine' component={VaccineMobile} />
+            <Route path='/about-vaccine' component={VaccineMobile} />
             <Route path='/' component={ClinicalTrialsMobile} />
             <Route path='/clinical-trials' component={AdenoviralMobile} />
             <Route path='/news-room' component={NewsRoomMobile} />
@@ -71,10 +70,11 @@ function App(props) {
       <main className="main">
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/distribution' component={Distribution} />
-          <Route path='/registered' component={Registered} />
-          <Route path='/producing' component={Producing} />
-          <Route path='/status' component={Status} />
+          <Route path='/about-vaccine' component={AboutVaccine} />
+          <Route path='/adenoviral-vaccines' component={AdenoviralVaccines} />
+          <Route path='/clinical-trials' component={ClinicalTrials} />
+          <Route path='/news-room' component={NewsRoom} />
+          <Route path='/faq' component={FAQ} />
         </Switch>
       </main>
       <Footer />

@@ -12,13 +12,13 @@ const NavigationStyle = Styled.div `
     a {
         color: black;
         font-size: 18px;
-        font-weight: 600;
+        font-weight: 500;
         cursor: pointer;
         text-decoration: none;
         margin: 0 20px;
     }
 
-    .active {
+    .active, a:hover {
         color: #1d99ff;
     }
 
