@@ -1,11 +1,13 @@
 import React from 'react'
 
+
+import NewsPreview from '../../components/Main/NewsPreview/index'
 import './newsRoom.css'
 
 const NewsRoom = () => {
     return (
         <div className="newsRoom">
-            <h1>News Room</h1>
+            <NewsPreview />
         </div>
     )
 }

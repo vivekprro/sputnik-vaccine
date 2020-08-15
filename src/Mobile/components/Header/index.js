@@ -9,7 +9,7 @@ import HeaderStyle from './header.styled'
 const Header = (props) => {
     return (
         <HeaderStyle>
-            <GiHamburgerMenu size="30px" color="#eb2314" onClick={props.drawerToggle} />
+            <GiHamburgerMenu size="30px" color="#ffffff" onClick={props.drawerToggle} />
             <Logo />
         </HeaderStyle>
     )

@@ -1,9 +1,10 @@
-.adenoviralVaccines {
+.vaccine {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    margin: 0;
-    padding: 30px 100px;
-    box-sizing: border-box;
+}
+
+.vaccine img {
+    width: 100%;
 }

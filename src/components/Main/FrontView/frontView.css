@@ -1,16 +1,18 @@
-.homePageContent {
+.frontView {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    min-height: 82vh;
+    min-height: 100vh;
+    width: 100%;
     padding: 120px 60px;
+    margin: -13vh 0 0 0;
     box-sizing: border-box;
-    background: url('../../../assets/images/vaccine-5.jpg') no-repeat 100% transparent;
-    background-size: 100% 82vh;
+    background: url('../../../assets/images/covid-9.jpg') no-repeat 100% transparent;
+    background-size: 100% 100vh;
 }
 
-.homePageContent h1 {
+.frontView h1 {
     color: rgb(255, 255, 255);
     font-size: 40px;
     font-weight: 800;

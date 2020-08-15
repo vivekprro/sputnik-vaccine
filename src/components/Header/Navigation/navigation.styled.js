@@ -10,7 +10,7 @@ const NavigationStyle = Styled.div `
     top: 20px;
 
     a {
-        color: black;
+        color: #ffffff;
         font-size: 18px;
         font-weight: 500;
         cursor: pointer;
@@ -19,7 +19,7 @@ const NavigationStyle = Styled.div `
     }
 
     .active, a:hover {
-        color: #1d99ff;
+        color: rgba(88, 139, 241, 0.836);
     }
 
 `;

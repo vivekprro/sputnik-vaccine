@@ -1,0 +1,76 @@
+{    
+    "funding_news_data" : [
+        {
+            "id": 1,
+            "title" : "Using the fine art of social media cold calling to land a job",
+            "date": "Jun 16, 2020",
+            "author": "Jasmit Singh Bhatia",
+            "image": "a1.png"
+            
+        },
+        {
+            "id" : 2,
+            "title": "Sona Comstar ties up with IIT Delhi to fund start-ups",
+            "date": "May 03, 2020",
+            "author": "Upasana Banerji",
+            "image": "a2.png",
+            "tags": "fitness, health life, media, job, society, happiness"
+        },
+        {
+            "id": 3,
+            "title": "Zomato co-founder's meditation startup for mental health",
+            "date": "Apr 02, 2020",
+            "author": "Hasina Shaikh",
+            "image": "a3.png"
+        },
+        {
+            "id": 4,
+            "title": "Degreed raises $32 million funding for upskilling",
+            "date": "Jun 02, 2020",
+            "author": "Sushant Singh",
+            "image": "a4.png"
+        },
+        {
+            "id": 5,
+            "title": "Bharti Airtel acquires strategic stake in edtech startup Lattu Media",
+            "date": "June 22, 2020",
+            "author": "Disha Patani",
+            "image": "a5.png"
+        },
+        {
+            "id": 6,
+            "title": "Flipkart preparing to start hyperlocal delivery services: Sources",
+            "date": "June 12, 2020",
+            "author": "Akash Teza",
+            "image": "a6.png"
+        },
+        {
+            "id": 7,
+            "title": "NABARD fund makes first investment in fintech startup Jai Kisan",
+            "date": "May 30, 2020",
+            "author": "Virat Kohli",
+            "image": "a7.png"
+        },
+        {
+            "id": 8,
+            "title": "PaisaBazaar lays off over 1,500  employees to cut costs",
+            "date": "Apr 12, 2020",
+            "author": "Aditya Roy",
+            "image": "a8.png"
+        },
+        {
+            "id": 9,
+            "title": "LetsTransport raises Rs10 crore from Stride Ventures",
+            "date": "Mar 26, 2020",
+            "author": "Javed Sulemani",
+            "image": "a9.png"
+        },
+        {
+            "id": 10,
+            "title": "Edvizo raises $150,000 seed round from Inflection Point Ventures",
+            "date": "Feb 21, 2020",
+            "author": "Roshan Garib",
+            "image": "a10.png"
+        }
+    ]
+}

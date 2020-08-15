@@ -8,7 +8,7 @@ const LogoStyle = Styled(Link) `
     justify-content: flex-start;
     align-items: flex-start;
     text-decoration: none;
-    color: black;
+    color: #ffffff;
 
     h1 {
         font-size: 35px;

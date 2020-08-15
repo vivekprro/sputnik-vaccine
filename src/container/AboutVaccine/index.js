@@ -1,13 +1,13 @@
 import React from 'react'
 
 
-import VaccineInfo from '../../assets/images/vaccine-info.png'
+import Vaccine from '../../components/Main/Vaccine/index'
 import './aboutVaccine.css'
 
 const AboutVaccine = () => {
     return (
         <div className="aboutVaccine">
-            <img src={VaccineInfo} alt='' />
+            <Vaccine />
         </div>
     )
 }

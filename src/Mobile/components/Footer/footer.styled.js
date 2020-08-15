@@ -7,7 +7,7 @@ const FooterStyle = Styled.div `
     font-size: 10px;
     width: 100%;
     height: 5vh;
-    background-color: #e67c7c;
+    background-color: black;
     color: white;
     display: flex;
     justify-content: space-around;

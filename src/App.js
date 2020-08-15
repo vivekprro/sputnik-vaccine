@@ -3,10 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import {isMobile} from 'react-device-detect';
 import ReactGA from 'react-ga';
 
-import Home from './container/Home/index'
-import Header from './components/Header/index'
-import Footer from './components/Footer/index'
-import HomeMobile from './Mobile/components/MainContent/index'
+
+
+// import HomeMobile from './Mobile/components/MainContent/index'
 import HeaderMobile from './Mobile/components/Header/index'
 import FooterMobile from './Mobile/components/Footer/index'
 import SideDrawer from './Mobile/components/Sidedrawer/index';
@@ -16,6 +15,9 @@ import ClinicalTrials from './container/ClinicalTrials/index'
 import NewsRoom from './container/NewsRoom/index'
 import FAQ from './container/FAQ/index'
 
+import Home from './container/Home/index'
+import Header from './components/Header/index'
+import Footer from './components/Footer/index'
 import VaccineMobile from './Mobile/components/Main/Vaccine/index'; 
 import ClinicalTrialsMobile from './Mobile/components/Main/ClinicalTrials/index'; 
 import AdenoviralMobile from './Mobile/components/Main/AdenoviralVaccines/index'; 
@@ -50,7 +52,7 @@ function App(props) {
             open={showSideDrawer}
             close={sideDrawerHandler} />
           <Switch>
-            <Route path='/' exact component={HomeMobile} />
+            <Route path='/' exact component={Home} />
             <Route path='/about-vaccine' component={VaccineMobile} />
             <Route path='/' component={ClinicalTrialsMobile} />
             <Route path='/clinical-trials' component={AdenoviralMobile} />

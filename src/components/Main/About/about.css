@@ -10,6 +10,6 @@
     align-content: center;
     width: 150px;
     height: 150px;
-    border: 1px solid red;
+    border: 1px solid rgba(20, 89, 228, 0.938);
     border-radius: 50%;
 }

@@ -1,11 +1,13 @@
 import React from 'react'
 
-const Adiniviral = () => {
+
+
+const Adenoviral = () => {
     return (
-        <div>
-            <h1>Adiniviral Vaccines</h1>
+        <div className="adenoviral">
+            <h1>Adenoviral Vaccines</h1>
         </div>
     )
 }
 
-export default Adiniviral
+export default Adenoviral

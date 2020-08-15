@@ -6,7 +6,7 @@ import NavigationStyle from './navigation.styled'
 const Navigation = (props) => {
     return (
         <NavigationStyle onClick={props.close}>
-            <NavLink to='/vaccine'>Vaccine</NavLink>
+            <NavLink to='/about-vaccine'>About Vaccine</NavLink>
             <NavLink to='/clinical-trials'>Clinical Trials</NavLink>
             <NavLink to='/adenoviral-vaccines'>Adenoviral vaccines</NavLink>           
             <NavLink to='/news-room'>News Room</NavLink>

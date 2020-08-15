@@ -1,0 +1,9 @@
+.newsRoom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0;
+    padding: 30px 50px;
+    box-sizing: border-box;
+}

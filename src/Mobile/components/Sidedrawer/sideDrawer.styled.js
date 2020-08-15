@@ -12,7 +12,7 @@ const SideDrawerStyle = Styled.div `
     left: 0;
     top: 0;
     z-index: 200;
-    background-color: #f04637de;
+    background-color: rgba(20, 89, 228, 0.93);
     padding: 32px 30px;
     box-sizing: border-box;
     transition: transform 0.3s ease-out;

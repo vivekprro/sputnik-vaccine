@@ -1,14 +1,14 @@
 import React from 'react'
 
-import './homePageContent.css'
+import './frontView.css'
 
-const HomePageContent = () => {
+const FrontView = () => {
     return (
-        <div className="homePageContent">
+        <div className="frontView">
             <h1>World's First Covid-19 Vaccine</h1>
             <button className="learnMore">Learn More</button>
         </div>
     )
 }
 
-export default HomePageContent
+export default FrontView
