@@ -1,13 +1,13 @@
 import React from 'react'
 
-import './frontView.css'
+import FrontviewStyle from './Frontview.styled'
 
 const FrontView = () => {
     return (
-        <div className="frontView">
+        <FrontviewStyle>
             <h1>World's First Covid-19 Vaccine</h1>
             <button className="learnMore">Learn More</button>
-        </div>
+        </FrontviewStyle>
     )
 }
 

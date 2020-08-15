@@ -1,28 +1,32 @@
 import React from 'react'
 import {isMobile} from 'react-device-detect';
 
-import MobileFrontView from '../../Mobile/components/FrontView/index'
+import MobileFrontView from '../../Mobile/components/Main/FrontView/index'
+import MobileTechInfo from '../../Mobile/components/Main/TechInfo/index'
+
 
 import FrontView from '../../components/Main/FrontView/index'
 import Technology from '../../components/Main/Technology/index'
 import Trials from '../../components/Main/Trials/index'
-
-import './home.css'
+import HomeSttyle from './home.syled'
 
 const Home = (props) => {
 
     if (isMobile) {
         return (
-            <MobileFrontView />
+            <div>
+                <MobileFrontView />
+                <MobileTechInfo />
+            </div>
         )
       }
 
     return (
-        <div className="home">
+        <HomeSttyle>
             <FrontView />
             <Technology />
             <Trials />
-        </div>
+        </HomeSttyle>
     )
 }
 
