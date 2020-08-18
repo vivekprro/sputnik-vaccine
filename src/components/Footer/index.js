@@ -7,7 +7,7 @@ import FooterStyle from './footer.styled'
 const Footer = () => {
     return (
         <FooterStyle>
-            <p>Copyright 2020 - Sputnik-V</p>
+            <p>2020 - sputnik-vaccines.com</p>
         </FooterStyle>
     )
 }

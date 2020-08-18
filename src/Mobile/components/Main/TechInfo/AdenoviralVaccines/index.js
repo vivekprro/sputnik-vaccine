@@ -8,21 +8,25 @@ const AdenoviralStyle = Styled.div `
     justify-content: space-around;
     align-items: flex-start;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     box-sizing: border-box;
 
     h1 {
-        font-size: 35px;
+        font-size: 23px;
+        line-height: 30px;
+        text-align: justify;
+        text-transform: capitalize;
+        padding: 0px 0 20px 0;
         margin: 0;
-        padding: 0px 0 10px 0;
     }
 
     p {
-        margin: 10px 0;
-        padding: 0;
-        font-size: 19px;
-        line-height: 30px;
+        font-size: 20px;
+        font-weight: 500;
         text-align: justify;
+        margin: 0;
+        line-height: 3p0x;
+        padding: 20px 0;
     }
 
 `;

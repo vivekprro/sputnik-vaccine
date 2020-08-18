@@ -1,17 +1,32 @@
-import React from 'react'
+import React, {useState} from 'react'
 
+import AdenoviralVaccines from './Adenoviral/index'
 import VaccineTech from '../../../assets/images/vaccine-tech.jpg'
+import Button from '../../UI/Button/index'
 import './technology.css'
 
 const Technology = () => {
+    
+    const [extend, setExtend] = useState(false);
+
+    const extendText = () => {
+        setExtend(!extend);
+    }
+
     return (
         <div className="technology">
-            <img src={VaccineTech} alt='' />
-            <div className="tech">
-                <h1>PROVEN VECTOR TECHNOLOGY BASED ON HUMAN ADENOVIRUS</h1>
-                <p>The technology of using adenoviral vectors as vector vaccines has been developing since the 80s of the last century, and numerous studies have shown the effectiveness and safety of this technology.</p>
-                <button>Learn More</button>
+            <div className="techPreview">
+                <img src={VaccineTech} alt='' />
+                <div className="techDetail">
+                    <h1>Proven Vector Technology Based On Human Adenovirus</h1>
+                    <p>The technology of using adenoviral vectors as vector vaccines has been developing since the 80s of the last century, and numerous studies have shown the effectiveness and safety of this technology.</p>
+                    
+                    {!extend ? <Button icon={extend} click={extendText}>Learn More</Button> : <h1>Adenoviral Vaccines</h1>}
+                    
+                </div>
             </div>
+            {extend ? <AdenoviralVaccines /> : null}
+            {extend ? <Button icon={extend} click={extendText}>Show Less</Button> : null}
         </div>
     )
 }

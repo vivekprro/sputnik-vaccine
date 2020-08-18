@@ -1,9 +1,9 @@
 import React from 'react'
 import {isMobile} from 'react-device-detect';
 
-import MobileAdinoviral from '../../Mobile/components/Main/AdenoviralVaccines/index'
+// import MobileAdinoviral from '../../Mobile/components/Main/AdenoviralVaccines/index'
 
-import Adinoviral from '../../components/Main/Adenoviral/index'
+// import Adinoviral from '../../components/Main/Adenoviral/index'
 
 import './adenoviralVaccines.css'
 
@@ -11,13 +11,13 @@ const AdenoviralVaccines = () => {
     if (isMobile) {
         return (
             <div>
-                <MobileAdinoviral />
+                {/* <MobileAdinoviral /> */}
             </div>
         )
       }
     return (
         <div className="adenoviralVaccines">
-            <Adinoviral />
+            {/* <Adinoviral /> */}
         </div>
     )
 }

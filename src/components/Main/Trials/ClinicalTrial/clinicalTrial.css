@@ -1,23 +1,24 @@
-.adenoviral {
+.clinicalTrial {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
     margin: 0;
-    padding: 0;
+    padding: 30px 0 0 0;
     box-sizing: border-box;
+    font-family: inherit;
 }
 
-.adenoviral h1 {
+.clinicalTrial h1 {
     font-size: 35px;
     margin: 0;
     padding: 0px 0 20px 0;
 }
 
-.adenoviral p {
-    margin: 10px 0;
-    padding: 0;
-    font-size: 21px;
-    line-height: 30px;
+.clinicalTrial p {
+    margin: 0;
+    padding: 0 0 15px 0;
+    font-size: 18px;
+    line-height: 35px;
     text-align: justify;
 }

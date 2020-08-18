@@ -7,7 +7,12 @@ const VaccineStyle = Styled.div `
     justify-content: space-around;
     align-items: flex-start;
     margin: 0;
-    padding: 10px 20px 30px 20px;
+    padding: 0px 20px 30px 20px;
+
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
 
     img {
         width: 100%;

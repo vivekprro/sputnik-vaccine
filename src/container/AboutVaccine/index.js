@@ -1,22 +1,22 @@
 import React from 'react'
 import {isMobile} from 'react-device-detect';
 
-import MobileAboutVaccine from '../../Mobile/components/Main/Vaccine/index'
+// import MobileAboutVaccine from '../../Mobile/components/Main/Vaccine/index'
 
-import Vaccine from '../../components/Main/Vaccine/index'
+// import Vaccine from '../../components/Main/Vaccine/index'
 import './aboutVaccine.css'
 
 const AboutVaccine = () => {
     if (isMobile) {
         return (
             <div>
-                <MobileAboutVaccine />
+                {/* <MobileAboutVaccine /> */}
             </div>
         )
       }
     return (
         <div className="aboutVaccine">
-            <Vaccine />
+            {/* <Vaccine /> */}
         </div>
     )
 }

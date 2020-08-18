@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import {isMobile} from 'react-device-detect';
 import ReactGA from 'react-ga';
+import Styled from 'styled-components'
 
 import HeaderMobile from './Mobile/components/Header/index'
 import FooterMobile from './Mobile/components/Footer/index'
@@ -16,7 +17,10 @@ import ClinicalTrials from './container/ClinicalTrials/index'
 import NewsRoom from './container/NewsRoom/index'
 import FAQ from './container/FAQ/index'
 
-import './app.css'
+const Main = Styled.div `
+  min-height: 82vh;
+  margin: 13vh 0 0 0;
+`;
 
 function App(props) {
 
@@ -39,19 +43,16 @@ function App(props) {
     return (
       <Router>
         <HeaderMobile drawerToggle={sideDrawerToggleHandler} />
-        <main className="main">
+        <Main>
           <SideDrawer
             open={showSideDrawer}
             close={sideDrawerHandler} />
           <Switch>
             <Route path='/' exact component={Home} />
-            <Route path='/about-vaccine' component={AboutVaccine} />
-            <Route path='/adenoviral-vaccines' component={AdenoviralVaccines} />
-            <Route path='/clinical-trials' component={ClinicalTrials} />
             <Route path='/news-room' component={NewsRoom} />
             <Route path='/faq' component={FAQ} />
           </Switch>
-        </main>
+        </Main>
         <FooterMobile />
       </Router>
     )
@@ -61,7 +62,7 @@ function App(props) {
 
     <Router>
       <Header />
-      <main className="main">
+      <Main>
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/about-vaccine' component={AboutVaccine} />
@@ -70,7 +71,7 @@ function App(props) {
           <Route path='/news-room' component={NewsRoom} />
           <Route path='/faq' component={FAQ} />
         </Switch>
-      </main>
+      </Main>
       <Footer />
     </Router>
   );

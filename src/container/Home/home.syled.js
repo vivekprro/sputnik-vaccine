@@ -4,7 +4,7 @@ const HomeStyle = Styled.div `
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
     margin: 0;
