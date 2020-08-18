@@ -1,76 +1,55 @@
 {    
-    "funding_news_data" : [
+    "data" : [
         {
-            "id": 1,
-            "title" : "Using the fine art of social media cold calling to land a job",
-            "date": "Jun 16, 2020",
-            "author": "Jasmit Singh Bhatia",
-            "image": "a1.png"
-            
+            "id" : 4,
+            "title": "Putin Approves First Covid-19 Vaccine Even as Trials Go On",
+            "date": "August 11, 2020",
+            "image": "v4.png",
+            "desc": "President Vladimir Putin said Russia cleared the world’s first Covid-19 vaccine for use and hopes to begin mass inoculation soon, even before clinical testing has finished. “The first registration has taken place,” Putin said Tuesday at a televised government meeting, adding that one of his daughters has already been given the vaccine. “I hope that we can soon begin mass production.” The move paves the way for widespread use of the vaccine among Russia’s population, with production starting next month, although it may take until January to complete trials. Medical workers could begin receiving the drug by the end of the month, Deputy Prime Minister Tatyana Golikova said at the meeting.The announcement represents a propaganda coup for the Kremlin amid a global race to develop vaccines against the coronavirus pandemic and accusations that Russian hackers sought to steal international drug research. The disease has killed nearly 750,000 people, infected more than 20 million and crippled national economies. Companies including AstraZeneca Plc and Moderna Inc. are still conducting final-stage trials of their vaccines in studies that are expected to soon yield results.",
+            "tags": ""
+        },
+        {
+            "id" : 5,
+            "title": "Russia’s success in developing COVID-19 vaccine is rooted in history",
+            "date": "August 11, 2020",
+            "image": "v5.jpg",
+            "desc": "The “Sputnik moment” has happened. The Russian vaccine “Sputnik V” has been launched becoming the world’s first registered COVID-19 vaccine and evoking memories of the 1957 shock launch of a Soviet satellite, which opened space to exploration by humans. This new era led not only to competition but also to many collaborative efforts, including the joint Apollo-Soyuz mission by the United States and the Soviet Union.  COVID-19 vaccine is the world’s number one priority and many countries, organizations and companies claim they are close to developing one. By the end of this year some other countries may have their own vaccines. It is important that political barriers do not prevent the best available technologies from being used for the benefit of all people in the face of the most serious challenge humankind has faced in decades. Unfortunately, instead of looking into the science behind the proven adenoviral vector-based vaccine platform Russia has developed, some international politicians and media chose to focus on politics and attempts to undermine the credibility of the Russian vaccine. We believe that such an approach is counter-productive and call for a political “ceasefire” on vaccines in the face of COVID-19 pandemic.  is not broadly known worldwide that Russia has been one of the global leaders in vaccine research for centuries. Russian Empress Catherine the Great set an example in 1768 when she received the country’s first smallpox vaccination, 30 years before the first vaccination was done in the United States. In 1892 Russian scientist Dmitri Ivanovsky observed an unusual effect while studying tobacco leaves infected with a mosaic disease. The leaves remained infectious even after the scientist filtered out the bacteria. Although it was still almost half a century before the first virus could be seen through a microscope, Ivanovsky’s research gave birth to a new science called virology. Since Ivanovsky’s discovery, Russia has been one of the global leaders in virology and vaccine research, producing scores of talented scientists such as researcher Nikolay Gamaleya, who studied at the laboratory of French biologist Louis Pasteur in Paris and opened the world’s second vaccination station for rabies in Russia in 1886. The Soviet Union continued to support research into viruses and vaccines. Everyone born after the Second World War received mandatory vaccinations against polio, tuberculosis and diphtheria. In a rare example of Cold War era cooperation, three leading Soviet virologists went to the United States in 1955 to offer testing opportunities in the Soviet Union for a U.S. vaccine against polio, a deadly disease which claimed millions of lives. If we were able to cooperate then, we can and must do it again now. Decades of efforts by Russian and Soviet scientists led to the creation of an excellent research infrastructure, such as the National Center of Epidemiology and Microbiology named after Nikolai Gamaleya. This infrastructure ranges from one of the richest “virus libraries” in the world, created using a unique preservation technique, to experimental animal breeding centers. We are proud of this legacy, which allowed us to create the first approved COVID-19 vaccine in the world. We already received international requests for 1 bln doses of our vaccine and reached international agreements to produce 500 mln doses annually with the intention to ramp it up.",
+            "tags": ""
+        },
+        {
+            "id" : 6,
+            "title": "Russia Has Developed First Covid-19 Vaccine 'Sputnik V', Claims President Putin; Says Daughter Inoculated",
+            "date": "August 11, 2020",
+            "image": "v6.png",
+            "desc": "The “Sputnik moment” has happened. The Russian vaccine “Sputnik V” has been launched becoming the world’s first registered COVID-19 vaccine and evoking memories of the 1957 shock launch of a Soviet satellite, which opened space to exploration by humans. This new era led not only to competition but also to many collaborative efforts, including the joint Apollo-Soyuz mission by the United States and the Soviet Union.  COVID-19 vaccine is the world’s number one priority and many countries, organizations and companies claim they are close to developing one. By the end of this year some other countries may have their own vaccines. It is important that political barriers do not prevent the best available technologies from being used for the benefit of all people in the face of the most serious challenge humankind has faced in decades. Unfortunately, instead of looking into the science behind the proven adenoviral vector-based vaccine platform Russia has developed, some international politicians and media chose to focus on politics and attempts to undermine the credibility of the Russian vaccine. We believe that such an approach is counter-productive and call for a political “ceasefire” on vaccines in the face of COVID-19 pandemic.  is not broadly known worldwide that Russia has been one of the global leaders in vaccine research for centuries. Russian Empress Catherine the Great set an example in 1768 when she received the country’s first smallpox vaccination, 30 years before the first vaccination was done in the United States. In 1892 Russian scientist Dmitri Ivanovsky observed an unusual effect while studying tobacco leaves infected with a mosaic disease. The leaves remained infectious even after the scientist filtered out the bacteria. Although it was still almost half a century before the first virus could be seen through a microscope, Ivanovsky’s research gave birth to a new science called virology. Since Ivanovsky’s discovery, Russia has been one of the global leaders in virology and vaccine research, producing scores of talented scientists such as researcher Nikolay Gamaleya, who studied at the laboratory of French biologist Louis Pasteur in Paris and opened the world’s second vaccination station for rabies in Russia in 1886. The Soviet Union continued to support research into viruses and vaccines. Everyone born after the Second World War received mandatory vaccinations against polio, tuberculosis and diphtheria. In a rare example of Cold War era cooperation, three leading Soviet virologists went to the United States in 1955 to offer testing opportunities in the Soviet Union for a U.S. vaccine against polio, a deadly disease which claimed millions of lives. If we were able to cooperate then, we can and must do it again now. Decades of efforts by Russian and Soviet scientists led to the creation of an excellent research infrastructure, such as the National Center of Epidemiology and Microbiology named after Nikolai Gamaleya. This infrastructure ranges from one of the richest “virus libraries” in the world, created using a unique preservation technique, to experimental animal breeding centers. We are proud of this legacy, which allowed us to create the first approved COVID-19 vaccine in the world. We already received international requests for 1 bln doses of our vaccine and reached international agreements to produce 500 mln doses annually with the intention to ramp it up.",
+            "tags": ""
         },
         {
             "id" : 2,
-            "title": "Sona Comstar ties up with IIT Delhi to fund start-ups",
-            "date": "May 03, 2020",
-            "author": "Upasana Banerji",
-            "image": "a2.png",
-            "tags": "fitness, health life, media, job, society, happiness"
+            "title": "Volunteers show no adverse effects in trial of COVID-19 vaccine by Russia's vector, watchdog Says",
+            "date": "17 August 2020",
+            "image": "v2.png",
+            "desc": "Russia's State Research Centre of Virology and Biotechnology Vector is conducting the second stage of coronavirus vaccine trials, and all the volunteers taking part in the clinical trials are feeling fine, showing no adverse reactions, the head of the national public health watchdog, Rospotrebnadzor, said on Monday, APA reports citing Sputnik. Yes, of course [we have proceeded to the second stage]. Today, clinical trials are being conducted. All the volunteers, who have been selected through a special procedure, are feeling fine. Those who have already been inoculated have absolutely no adverse reactions. Not a single case of slight redness in the injection site has been recorded. The body temperature of all the volunteers is absolutely normal, Anna Popova told reporters.The public health watchdog chief held a briefing on the epidemiological situation in Novosibirsk, Russia and on the measures implemented to prevent local spreading of the coronavirus. Popova also held talks with Sergey Menyaylo, Russian presidential envoy in the Siberian Federal District.",
+            "tags": ""
         },
         {
-            "id": 3,
-            "title": "Zomato co-founder's meditation startup for mental health",
-            "date": "Apr 02, 2020",
-            "author": "Hasina Shaikh",
-            "image": "a3.png"
+            "id" : 3,
+            "title": "Nicolas Maduro: I will be the first in Venezuela to get vaccinated against COVID-19",
+            "date": "17 August 2020",
+            "image": "v3.png",
+            "desc": "Venezuelan President Nicolas Maduro has said he'll be the first to get vaccinated when a COVID-19 vaccine arrives in the country, APA reports citing Sputnik. am pleased that Russia will be the first country in the world to vaccinate its population”, Maduro said in a televised speech on Sunday.“There will be a time when we all get vaccinated and the first to be vaccinated is me. I'm going to get the vaccine, I'm going to set an example”, he added.Maduro said the government would then vaccinate healthcare workers, elderly people, and those with health conditions.",
+            "tags": ""
         },
         {
-            "id": 4,
-            "title": "Degreed raises $32 million funding for upskilling",
-            "date": "Jun 02, 2020",
-            "author": "Sushant Singh",
-            "image": "a4.png"
-        },
-        {
-            "id": 5,
-            "title": "Bharti Airtel acquires strategic stake in edtech startup Lattu Media",
-            "date": "June 22, 2020",
-            "author": "Disha Patani",
-            "image": "a5.png"
-        },
-        {
-            "id": 6,
-            "title": "Flipkart preparing to start hyperlocal delivery services: Sources",
-            "date": "June 12, 2020",
-            "author": "Akash Teza",
-            "image": "a6.png"
-        },
-        {
-            "id": 7,
-            "title": "NABARD fund makes first investment in fintech startup Jai Kisan",
-            "date": "May 30, 2020",
-            "author": "Virat Kohli",
-            "image": "a7.png"
-        },
-        {
-            "id": 8,
-            "title": "PaisaBazaar lays off over 1,500  employees to cut costs",
-            "date": "Apr 12, 2020",
-            "author": "Aditya Roy",
-            "image": "a8.png"
-        },
-        {
-            "id": 9,
-            "title": "LetsTransport raises Rs10 crore from Stride Ventures",
-            "date": "Mar 26, 2020",
-            "author": "Javed Sulemani",
-            "image": "a9.png"
-        },
-        {
-            "id": 10,
-            "title": "Edvizo raises $150,000 seed round from Inflection Point Ventures",
-            "date": "Feb 21, 2020",
-            "author": "Roshan Garib",
-            "image": "a10.png"
+            "id": 1,
+            "title" : "Russian Covid-19 vaccine updates: Video shows how Sputnik V will end coronavirus",
+            "date": "August 18, 2020",
+            "image": "v1.jpg",
+            "desc": "Russia, which last week became the first country to grant regulatory approval to a Covid-19 vaccine amid scepticism from the global scientific community, has released a video showing how the ‘Sputnik V’ jab would end the novel coronavirus.The 38-second promotional video, created by the Russian Direct Investment Fund, which has bankrolled the project, shows how the Sputnik V vaccine, named after the first artificial satellite, emerges and slowly eradicates the novel coronavirus from the world, with cases rising to 21.6 million, including 7,74,000 deaths. Another video showing the vaccine’s production has also been released, Sputnik News reported.Last week, Russian President Vladimir Putin claimed the vaccine, developed by Moscow’s Gamaleya Institute along with the Defence Ministry, worked “quite effectively” and formed “stable immunity” against the disease.",
+            "tags": ""
+            
         }
+        
+        
     ]
 }

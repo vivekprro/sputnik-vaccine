@@ -3,7 +3,7 @@ import Styled from 'styled-components'
 
 const ClinicaTrialStyle = Styled.div ` 
 
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
@@ -14,7 +14,7 @@ const ClinicaTrialStyle = Styled.div `
     h1 {
         font-size: 35px;
         margin: 0;
-        padding: 0px 0 10px 0;
+        padding: 0px 0 0px 0;
     }
 
     p {
@@ -23,7 +23,7 @@ const ClinicaTrialStyle = Styled.div `
         font-size: 19px;
         line-height: 30px;
         text-align: justify;
-    }
+    } */
 
 `;
 

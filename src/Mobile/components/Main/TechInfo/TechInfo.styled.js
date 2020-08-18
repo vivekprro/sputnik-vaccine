@@ -27,13 +27,13 @@ const TechInfoStyle = Styled.div `
         margin: 0;
     }
 
-    p {
-        font-size: 20px;
-        font-weight: 500;
+    p {  
+        color: #737373;
+        font-size: 19px;
+        line-height: 35px;
         text-align: justify;
+        padding: 0 0 20px 0;
         margin: 0;
-        line-height: 25px;
-        padding: 20px 0;
     }
 
 `

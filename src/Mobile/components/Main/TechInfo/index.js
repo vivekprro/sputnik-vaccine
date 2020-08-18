@@ -8,10 +8,29 @@ import ClinicalTrial from './ClinicalTrials/index'
 import TechInfoStyle from './TechInfo.styled'
 
 const TechInfo = () => {
+
+    // const details = [
+    //     {
+    //         title: 'Proven Vector Technology Based On Human Adenovirus',
+    //         image: VaccineTech,
+    //         desc: 'The technology of using adenoviral vectors as vector vaccines has been developing since the 80s of the last century, and numerous studies have shown the effectiveness and safety of this technology.'
+    //     },
+    //     {
+    //         title: 'Clinical Trials',
+    //         image: VaccineTrials,
+    //         desc: 'The vaccine has received a registration certificate from the Russian Ministry of Health and under emergency rules adopted during the COVID-19 pandemic can be used to vaccinate the population in Russia.'
+    //     },
+    // ]
+
     const [extend, setExtend] = useState(false);
+    const [extend2, setExtend2] = useState(false);
 
     const extendText = () => {
-        setExtend(!extend);
+        setExtend(!extend);    
+    }
+
+    const extendText2 = () => {
+        setExtend2(!extend2);
     }
 
     return (
@@ -22,12 +41,13 @@ const TechInfo = () => {
             {!extend ? <Button icon={extend} click={extendText}>Learn More</Button> : null}
             {extend ? <Adenoviral /> : null}
             {extend ? <Button icon={extend} click={extendText}>Show Less</Button> : null}
+
             <h1>Clinical Trials</h1>
             <img src={VaccineTrials} alt='' />
             <p>The vaccine has received a registration certificate from the Russian Ministry of Health and under emergency rules adopted during the COVID-19 pandemic can be used to vaccinate the population in Russia.</p>
-            {!extend ? <Button icon={extend} click={extendText}>Learn More</Button> : null}
-            {extend ? <ClinicalTrial /> : null}
-            {extend ? <Button icon={extend} click={extendText}>Show Less</Button> : null}
+            {!extend2 ? <Button icon={extend2} click={extendText2}>Learn More</Button> : null}
+            {extend2 ? <ClinicalTrial /> : null}
+            {extend2 ? <Button icon={extend2} click={extendText2}>Show Less</Button> : null}
         </TechInfoStyle>
     )
 }

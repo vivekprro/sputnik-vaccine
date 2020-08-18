@@ -3,7 +3,7 @@ import Styled from 'styled-components'
 
 const AdenoviralStyle = Styled.div ` 
 
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
@@ -16,7 +16,7 @@ const AdenoviralStyle = Styled.div `
         line-height: 30px;
         text-align: justify;
         text-transform: capitalize;
-        padding: 0px 0 20px 0;
+        padding: 0px 0 0px 0;
         margin: 0;
     }
 
@@ -26,8 +26,8 @@ const AdenoviralStyle = Styled.div `
         text-align: justify;
         margin: 0;
         line-height: 3p0x;
-        padding: 20px 0;
-    }
+        padding: 0px 0;
+    } */
 
 `;
 
