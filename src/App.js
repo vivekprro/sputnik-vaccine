@@ -15,6 +15,7 @@ import AdenoviralVaccines from './container/AdenoviralVaccines/index'
 import ClinicalTrials from './container/ClinicalTrials/index'
 import NewsRoom from './container/NewsRoom/index'
 import FAQ from './container/FAQ/index'
+import Login from './container/Login';
 
 import './app.css'
 
@@ -44,6 +45,7 @@ function App(props) {
             open={showSideDrawer}
             close={sideDrawerHandler} />
           <Switch>
+            <Route path='/login' exact component={Login} />
             <Route path='/' exact component={Home} />
             <Route path='/about-vaccine' component={AboutVaccine} />
             <Route path='/adenoviral-vaccines' component={AdenoviralVaccines} />
