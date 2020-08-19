@@ -1,8 +1,5 @@
 import React from 'react'
-
-
 import FooterStyle from './footer.styled'
-
 
 const Footer = () => {
     return (
