@@ -1,4 +1,6 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
+
 import Styled from 'styled-components'
 
 const FAQStyle = Styled.div ` 
@@ -36,6 +38,11 @@ const FAQStyle = Styled.div `
 const FAQ = () => {
     return (
         <FAQStyle>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Frequently asked questions</title>
+                <meta name="description" content="When will mass production of the Russian vaccine start?" />
+            </Helmet> 
              <h1>Frequently Asked Questions</h1>
 
             <h2>When will mass production of the Russian vaccine start?</h2>

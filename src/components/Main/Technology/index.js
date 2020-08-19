@@ -17,7 +17,7 @@ const Technology = () => {
         <div className="technology">
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Proven Vector Technology Based On Human Adenovirus</title>
+                <title>Sputnik vaccine</title>
                 <meta name="description" content='The technology of using adenoviral vectors as vector vaccines has been developing since the 80s of the last century, and numerous studies have shown the effectiveness and safety of this technology.' />
             </Helmet>
             

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
 import Styled from 'styled-components'
 
 const ClinicaTrialStyle = Styled.div ` 
@@ -30,6 +31,11 @@ const ClinicaTrialStyle = Styled.div `
 const ClinicalTrials = () => {
     return (
         <ClinicaTrialStyle>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Clinical Trials</title>
+                <meta name="description" content="Phase 1 and 2 clinical trials of the vaccine have been completed on August 1, 2020. All the volunteers are feeling well, no unforeseen or unwanted side effects were observed. The vaccine induced strong antibody and cellular immune response. Not a single participant of the current clinical trials got infected with COVID-19 after being administered with the vaccine. The high efficacy of the vaccine was confirmed by high precision tests for antibodies in the blood serum of volunteers (including an analysis for antibodies that neutralize the coronavirus), as well as the ability of the immune cells of the volunteers to activate in response to the spike S protein of the coronavirus, which indicates the formation of both antibody and cellular immune vaccine response" />
+            </Helmet>            
             <h1>Clinical Trials</h1>
             <p>Before the start of clinical trials the vaccine had gone through all stages of pre-clinical trials with experiments on different types of animals, including 2 types of primates.</p>
 

@@ -7,7 +7,7 @@ const FrontView = () => {
         <FrontviewStyle>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>sputnik vaccines World's First Covid-19 Vaccine </title>
+                <title>Sputnik vaccines World's First Covid-19 Vaccine </title>
                 <meta name="description" content="World's First Covid-19 Vaccine" />
             </Helmet> 
             <h1>World's First Covid-19 Vaccine</h1>

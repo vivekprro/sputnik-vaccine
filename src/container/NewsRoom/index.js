@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {isMobile} from 'react-device-detect';
+import {Helmet} from "react-helmet";
 
 import NewsData from '../../Data/newsData.json'
 
@@ -18,6 +19,11 @@ const NewsRoom = (props) => {
     if (isMobile) {
         return (
             <div>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>News Room</title>
+                    <meta name="description" content="World's First Covid-19 Vaccine" />
+                </Helmet> 
                 {
                 newsData.map((data, i) => (
                     <MobileNewsPreview

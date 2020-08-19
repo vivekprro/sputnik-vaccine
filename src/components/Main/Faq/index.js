@@ -8,7 +8,7 @@ const Faq = () => {
         <div className="faq">
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>When will mass production of the Russian vaccine start</title>
+                <title>Frequently asked questions</title>
                 <meta name="description" content='Mass production of the vaccine is expected to start in September 2020.' />
             </Helmet>
             <h1>Frequently Asked Questions</h1>

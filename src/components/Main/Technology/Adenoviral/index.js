@@ -1,10 +1,16 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
 
 import './adenoviral.css'
 
 const Adenoviral = () => {
     return (
         <div className="adenoviral">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Adenoviral Vaccines</title>
+                <meta name="description" content='Adenoviral vectors are considered extremely safe and some of the easiest to engineer. Vectors are viruses, which have had the gene responsible for reproduction removed. Therefore, they no longer pose any infection threat. Scientists use vectors to transport genetic material from a different virus, being vaccinated against, into a human cell.'/>
+            </Helmet>
             <p>Adenoviral vectors are considered extremely safe and some of the easiest to engineer. Vectors are viruses, which have had the gene responsible for reproduction removed. Therefore, they no longer pose any infection threat. Scientists use vectors to transport genetic material from a different virus, being vaccinated against, into a human cell.</p>
             <p>Adenoviruses, found in adenoids and normally transmitting the common cold, have become very popular as vectors with a lot of research available from different sources. Scientists from the Gamaleya Center have been working on adenoviral vector-based vaccines since the 1980s and have become the world’s leaders in developing these type of vaccines.</p>
             <p>The Gamaleya Center successfully developed and registered an adenoviral vector-based vaccine against Ebola.</p>

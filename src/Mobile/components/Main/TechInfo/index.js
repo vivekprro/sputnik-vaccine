@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import {Helmet} from "react-helmet";
 
 import VaccineTech from '../../../../assets/images/vaccine-tech.jpg'
 import VaccineTrials from '../../../../assets/images/vaccine-trials-2.jpg'
@@ -35,6 +36,11 @@ const TechInfo = () => {
 
     return (
         <TechInfoStyle>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Vaccines Technology</title>
+                <meta name="description" content="The technology of using adenoviral vectors as vector vaccines has been developing since the 80s of the last century, and numerous studies have shown the effectiveness and safety of this technology." />
+            </Helmet> 
             <h1>Proven Vector Technology Based On Human Adenovirus</h1>
             <img src={VaccineTech} alt='' />            
             <p>The technology of using adenoviral vectors as vector vaccines has been developing since the 80s of the last century, and numerous studies have shown the effectiveness and safety of this technology.</p>

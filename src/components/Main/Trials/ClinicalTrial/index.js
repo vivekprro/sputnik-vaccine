@@ -15,7 +15,7 @@ const ClinicalTrial = () => {
         <div className="clinicalTrial">
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>sputnik vaccines clinical trials </title>
+                <title>Clinical Trials</title>
                 <meta name="description" content={p2} />
             </Helmet>            
             <p>{p1}</p>
