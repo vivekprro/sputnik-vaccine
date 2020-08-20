@@ -18,6 +18,10 @@
     border-radius: 2px;
 }
 
+.newsPreview a {
+    text-decoration: none;
+}
+
 .news {
     display: flex;
     flex-direction: column;

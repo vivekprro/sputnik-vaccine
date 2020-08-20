@@ -10,15 +10,15 @@ const ClinicaTrialStyle = Styled.div `
     align-items: flex-start;
     margin: 0;
     padding: 20px;
-    box-sizing: border-box;
+    box-sizing: border-box; */
 
-    h1 {
+    h2 {
         font-size: 35px;
         margin: 0;
         padding: 0px 0 0px 0;
     }
 
-    p {
+    /* p {
         margin: 10px 0;
         padding: 0;
         font-size: 19px;
@@ -36,7 +36,7 @@ const ClinicalTrials = () => {
                 <title>Clinical Trials</title>
                 <meta name="description" content="Phase 1 and 2 clinical trials of the vaccine have been completed on August 1, 2020. All the volunteers are feeling well, no unforeseen or unwanted side effects were observed. The vaccine induced strong antibody and cellular immune response. Not a single participant of the current clinical trials got infected with COVID-19 after being administered with the vaccine. The high efficacy of the vaccine was confirmed by high precision tests for antibodies in the blood serum of volunteers (including an analysis for antibodies that neutralize the coronavirus), as well as the ability of the immune cells of the volunteers to activate in response to the spike S protein of the coronavirus, which indicates the formation of both antibody and cellular immune vaccine response" />
             </Helmet>            
-            <h1>Clinical Trials</h1>
+            <h2>Clinical Trials</h2>
             <p>Before the start of clinical trials the vaccine had gone through all stages of pre-clinical trials with experiments on different types of animals, including 2 types of primates.</p>
 
             <p>Phase 1 and 2 clinical trials of the vaccine have been completed on August 1, 2020. All the volunteers are feeling well, no unforeseen or unwanted side effects were observed. The vaccine induced strong antibody and cellular immune response. Not a single participant of the current clinical trials got infected with COVID-19 after being administered with the vaccine. The high efficacy of the vaccine was confirmed by high precision tests for antibodies in the blood serum of volunteers (including an analysis for antibodies that neutralize the coronavirus), as well as the ability of the immune cells of the volunteers to activate in response to the spike S protein of the coronavirus, which indicates the formation of both antibody and cellular immune vaccine response.</p>

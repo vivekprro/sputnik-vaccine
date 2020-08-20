@@ -36,7 +36,7 @@ const SideDrawerStyle = Styled.div `
         justify-content: flex-end;
         align-items: center;
         width: 100%;
-        height: 150px;
+        height: 110px;
         background-color: rgba(45,46,48, 0.938);
     }
 

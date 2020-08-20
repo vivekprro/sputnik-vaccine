@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import {Link} from 'react-router-dom'
 import {Helmet} from "react-helmet";
 import Button from '../../UI/Button/index'
 import './newsPreview.css'
@@ -22,8 +23,12 @@ const NewsPreview = (props) => {
             <div className="news">
                 <h3>{props.date}</h3>
                 <h1>{props.title}</h1>
-                {!showMore ? <p>{props.desc.slice(0,300)}...</p> : <p>{props.desc.slice(0,)}</p>}
-                {!showMore ? <Button icon={showMore} click={showMoreHandler} >Learn more</Button> : <Button icon={showMore} click={showMoreHandler} >Show less</Button>}
+                <p>{props.desc.slice(0,200)}...</p>
+                <Link to={props.routePath}>
+                    <Button icon={showMore} click={showMoreHandler} >Learn more</Button>
+                </Link>
+                {/* {!showMore ? <p>{props.desc.slice(0,300)}...</p> : <p>{props.desc.slice(0,)}</p>}
+                {!showMore ? <Button icon={showMore} click={showMoreHandler} >Learn more</Button> : <Button icon={showMore} click={showMoreHandler} >Show less</Button>} */}
             </div>
         </div>
     )

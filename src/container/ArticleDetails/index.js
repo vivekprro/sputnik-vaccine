@@ -1,23 +1,52 @@
-import React from 'react'
-import {Helmet} from "react-helmet";
+import React, {useState, useEffect} from 'react';
+import {isMobile} from 'react-device-detect';
 
+import MobileFullarticle from '../../Mobile/components/Main/FullArticle/index'
+
+import NewsData from '../../data/newsData.json'
+import Fullarticle from '../../components/Main/FullArticle/index'
 import './articleDetails.css';
 
 const ArticleDetails = (props) => {
-    console.log(props);
+
+    const [article, setArticle] = useState({
+        image: ''
+    });
+    const [articleId, setArticleId] = useState('');
+
+    useEffect(() => {
+
+        const articleId = props.match.params.articleId;
+        const article = NewsData.data.find(article => article.id == articleId);
+        
+        setArticleId(articleId);
+        setArticle(article);
+
+    }, [article, props.match.params.articleId, articleId]);
+
+    if (article.image === '') {
+        return null;
+    }
+
+    if (isMobile) {
+        return (
+            <div>
+                <MobileFullarticle
+                    title={article.title}
+                    image={article.image}
+                    desc={article.desc}
+                    date={article.date} />
+            </div>
+        )
+      }
+
     return (
         <div className="articleDetails">
-            <Helmet>
-                <meta charSet="utf-8" />
-                <title>hhh</title>
-                <meta name="description" content='jjjj' />
-            </Helmet>
-            {/* <img src={require(`../../../assets/news_images/${props.image}`)} alt='' /> */}
-            <div className="news">
-                <h3>jjjj</h3>
-                <h1>ggg</h1>
-               
-            </div>
+            <Fullarticle
+                title={article.title}
+                image={article.image}
+                desc={article.desc}
+                date={article.date} />
         </div>
     )
 }

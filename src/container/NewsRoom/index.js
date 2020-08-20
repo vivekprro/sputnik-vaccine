@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {isMobile} from 'react-device-detect';
 import {Helmet} from "react-helmet";
 
-import NewsData from '../../Data/newsData.json'
+import NewsData from '../../data/newsData.json'
 
 import MobileNewsPreview from '../../Mobile/components/Main/NewsRoom/index'
 
@@ -16,6 +16,7 @@ const NewsRoom = (props) => {
         setNewsData(NewsData.data);
     }, [newsData]);
 
+
     if (isMobile) {
         return (
             <div>
@@ -28,6 +29,7 @@ const NewsRoom = (props) => {
                 newsData.map((data, i) => (
                     <MobileNewsPreview
                         key={data.id}
+                        routePath={`/news/${data.id}`}
                         title={data.title}
                         date={data.date}
                         image={data.image}
@@ -44,6 +46,7 @@ const NewsRoom = (props) => {
                 newsData.map((data, i) => (
                     <NewsPreview
                         key={data.id}
+                        routePath={`/news/${data.id}`}
                         title={data.title}
                         date={data.date}
                         image={data.image}

@@ -11,6 +11,10 @@ display: flex;
     box-sizing: border-box;
     font-family: inherit;
 
+    a {
+        text-decoration: none;
+    }
+
     img {
         width: 100%;
         height: 220px;

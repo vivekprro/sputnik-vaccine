@@ -51,6 +51,7 @@ function App(props) {
             <Route path='/' exact component={Home} />
             <Route path='/news-room' component={NewsRoom} />
             <Route path='/faq' component={FAQ} />
+            <Route path='/news/:articleId' component={ArticleDetails} />
           </Switch>
         </Main>
         <FooterMobile />
@@ -67,7 +68,7 @@ function App(props) {
           <Route path='/' exact component={Home} />
           <Route path='/news-room' component={NewsRoom} />
           <Route path='/faq' component={FAQ} />
-          <Route path='/faqs' component={ArticleDetails} />
+          <Route path='/news/:articleId' component={ArticleDetails} />
         </Switch>
       </Main>
       <Footer />
