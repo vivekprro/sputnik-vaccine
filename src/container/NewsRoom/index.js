@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {isMobile} from 'react-device-detect';
 import {Helmet} from "react-helmet";
 
-import NewsData from '../../data/newsData.json'
+import NewsData from '../../Data/newsData.json'
 
 import MobileNewsPreview from '../../Mobile/components/Main/NewsRoom/index'
 

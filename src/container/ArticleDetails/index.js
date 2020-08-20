@@ -3,7 +3,7 @@ import {isMobile} from 'react-device-detect';
 
 import MobileFullarticle from '../../Mobile/components/Main/FullArticle/index'
 
-import NewsData from '../../data/newsData.json'
+import NewsData from '../../Data/newsData.json'
 import Fullarticle from '../../components/Main/FullArticle/index'
 import './articleDetails.css';
 
