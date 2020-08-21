@@ -19,6 +19,7 @@ const TrialInfoStyle = Styled.div `
         margin: 0;
         box-sizing: border-box;
         font-family: inherit;
+        box-sizing: border-box;
     }
 
     .trialDetail {
@@ -29,6 +30,7 @@ const TrialInfoStyle = Styled.div `
         width: 570px;
         margin: 0;
         padding: 0 45px 0 0;
+        box-sizing: border-box;
     }
 
     img {

@@ -19,6 +19,7 @@ const TechInfoStyle = Styled.div `
         margin: 0;
         box-sizing: border-box;
         font-family: inherit;
+        box-sizing: border-box;
     }
 
     .techDetail {
@@ -29,6 +30,7 @@ const TechInfoStyle = Styled.div `
         width: 570px;
         margin: 0;
         padding: 0 0 0 45px;
+        box-sizing: border-box;
     }
 
     img {
