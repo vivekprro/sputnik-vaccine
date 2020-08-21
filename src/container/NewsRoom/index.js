@@ -7,7 +7,7 @@ import MobileNewsPreview from '../../Mobile/components/Main/NewsPreview/index'
 
 import NewsPreview from '../../components/Main/NewsPreview/index'
 
-import NewsData from '../../data/newsData.json'
+import NewsData from '../../Data/newsData.json'
 
 const NewsRoomStyle = Styled.div `
 
