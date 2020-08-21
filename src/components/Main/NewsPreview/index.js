@@ -1,8 +1,10 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
-import {Helmet} from "react-helmet";
+import {Helmet} from "react-helmet"
+
 import Button from '../../UI/Button/index'
-import './newsPreview.css'
+import NewsPreviewStyle from './newsPreviewStyle.style'
+
 
 const NewsPreview = (props) => {
 
@@ -13,7 +15,7 @@ const NewsPreview = (props) => {
     }
     
     return (
-        <div className="newsPreview">
+        <NewsPreviewStyle>
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>{props.title}</title>
@@ -25,12 +27,12 @@ const NewsPreview = (props) => {
                 <h1>{props.title}</h1>
                 <p>{props.desc.slice(0,200)}...</p>
                 <Link to={props.routePath}>
-                    <Button icon={showMore} click={showMoreHandler} >Learn more</Button>
+                    <Button icon={showMore} click={showMoreHandler} >Read more</Button>
                 </Link>
                 {/* {!showMore ? <p>{props.desc.slice(0,300)}...</p> : <p>{props.desc.slice(0,)}</p>}
                 {!showMore ? <Button icon={showMore} click={showMoreHandler} >Learn more</Button> : <Button icon={showMore} click={showMoreHandler} >Show less</Button>} */}
             </div>
-        </div>
+        </NewsPreviewStyle>
     )
 }
 

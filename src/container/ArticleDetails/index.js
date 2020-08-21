@@ -1,11 +1,25 @@
 import React, {useState, useEffect} from 'react';
 import {isMobile} from 'react-device-detect';
+import Styled from 'styled-components'
 
 import MobileFullarticle from '../../Mobile/components/Main/FullArticle/index'
 
 import NewsData from '../../data/newsData.json'
 import Fullarticle from '../../components/Main/FullArticle/index'
-import './articleDetails.css';
+
+
+const ArticleDetailStyle = Styled.div `
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 50px 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+
+`
 
 const ArticleDetails = (props) => {
 
@@ -41,13 +55,13 @@ const ArticleDetails = (props) => {
       }
 
     return (
-        <div className="articleDetails">
+        <ArticleDetailStyle>
             <Fullarticle
                 title={article.title}
                 image={article.image}
                 desc={article.desc}
                 date={article.date} />
-        </div>
+        </ArticleDetailStyle>
     )
 }
 

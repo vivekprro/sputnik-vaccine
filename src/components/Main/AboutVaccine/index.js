@@ -1,16 +1,15 @@
 import React from 'react'
 
-
 import VaccineInfo from '../../../assets/images/vaccine-info.png'
-import './vaccine.css'
+import AboutVaccineStyle from './aboutVaccine.styled'
 
-const Vaccine = () => {
+const AboutVaccine = () => {
     return (
-        <div className="vaccine">
+        <AboutVaccineStyle>
             <h1>About Vaccine</h1>
             <img src={VaccineInfo} alt='' />
-        </div>
+        </AboutVaccineStyle>
     )
 }
 
-export default Vaccine
+export default AboutVaccine

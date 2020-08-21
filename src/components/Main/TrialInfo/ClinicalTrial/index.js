@@ -1,6 +1,5 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
-import './clinicalTrial.css';
 
 const p1 = 'Before the start of clinical trials the vaccine had gone through all stages of pre-clinical trials with experiments on different types of animals, including 2 types of primates.'
 

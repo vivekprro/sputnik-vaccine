@@ -1,13 +1,13 @@
 import React from 'react'
 import {Helmet} from "react-helmet";
 
-import './fullArticle.css';
+import FullArticleStyle from './fullArticle.styled'
 
 const FullArticle = (props) => {
     const image = props.image;
     console.log(image);
     return (
-        <div className="fullArticle">
+        <FullArticleStyle>
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>{props.title}</title>
@@ -18,7 +18,7 @@ const FullArticle = (props) => {
             <h4>Published on <b>{props.date}</b></h4>
             <p>{props.desc}</p>
             
-        </div>
+        </FullArticleStyle>
     )
 }
 

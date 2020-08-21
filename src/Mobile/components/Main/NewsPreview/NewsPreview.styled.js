@@ -2,7 +2,7 @@ import Styled from 'styled-components'
 
 const NewsPreviewStyled = Styled.div `
 
-display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
@@ -43,7 +43,8 @@ display: flex;
     }
 
     .news h1 {
-        font-size: 23px;
+        color: rgb(66, 54, 54);
+        font-size: 22px;
         line-height: 30px;
         text-align: justify;
         text-transform: capitalize;

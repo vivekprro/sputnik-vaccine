@@ -1,6 +1,6 @@
 import React from 'react';
 import Styled from 'styled-components';
-import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import { IoIosArrowForward, IoIosArrowUp } from "react-icons/io";
 
 const ButtonStyle = Styled.button `
 
@@ -33,7 +33,7 @@ const ButtonStyle = Styled.button `
 const Button = (props) => {
     return (
         <ButtonStyle onClick={props.click}>
-            {props.children} {!props.icon ? <IoIosArrowDown /> : <IoIosArrowUp /> }
+            {props.children} {!props.icon ? <IoIosArrowForward /> : <IoIosArrowUp /> }
         </ButtonStyle>
     )
 }

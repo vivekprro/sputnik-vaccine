@@ -15,7 +15,8 @@ const TechInfoStyle = Styled.div `
         width: 100%;
         height: 180px;
         margin: 0;
-        padding: 0;
+        padding: 0px 0 20px 0;
+        margin: 0;
     }
 
     h1 {
@@ -32,7 +33,7 @@ const TechInfoStyle = Styled.div `
         font-size: 19px;
         line-height: 35px;
         text-align: justify;
-        padding: 0px 0 10px 0;
+        padding: 0px 0 15px 0;
         margin: 0;
     }
 

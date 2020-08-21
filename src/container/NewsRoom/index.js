@@ -1,19 +1,32 @@
 import React, {useState, useEffect} from 'react'
 import {isMobile} from 'react-device-detect';
 import {Helmet} from "react-helmet";
+import Styled from 'styled-components'
+
+import MobileNewsPreview from '../../Mobile/components/Main/NewsPreview/index'
+
+import NewsPreview from '../../components/Main/NewsPreview/index'
 
 import NewsData from '../../data/newsData.json'
 
-import MobileNewsPreview from '../../Mobile/components/Main/NewsRoom/index'
+const NewsRoomStyle = Styled.div `
 
-import NewsPreview from '../../components/Main/NewsPreview/index'
-import './newsRoom.css'
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 20px 50px;
+    box-sizing: border-box;
+
+`;
 
 const NewsRoom = (props) => {
     const [newsData, setNewsData] = useState([]);
 
     useEffect(() => {
-        setNewsData(NewsData.data);
+        setNewsData(NewsData.data.reverse());
     }, [newsData]);
 
 
@@ -41,7 +54,7 @@ const NewsRoom = (props) => {
       }
 
     return (
-        <div className="newsRoom">
+        <NewsRoomStyle>
             {
                 newsData.map((data, i) => (
                     <NewsPreview
@@ -53,7 +66,7 @@ const NewsRoom = (props) => {
                         desc={data.desc} />
                 ))
             }
-        </div>
+        </NewsRoomStyle>
     )
 }
 

@@ -10,27 +10,33 @@ const FAQStyle = Styled.div `
     justify-content: space-around;
     align-items: flex-start;
     margin: 0;
-    padding: 20px;
+    padding: 30px;
     box-sizing: border-box;
 
     h1 {
-        font-size: 35px;
-        margin: 0;
+        color: rgb(44, 39, 39);
+        font-size: 22px;
+        text-align: justify;
         padding: 0;
+        margin: 0;
     }
 
     h2 {
-        font-size: 26px;
+        color: rgb(66, 54, 54);
+        font-size: 20px;
+        line-height: 35px;
+        text-align: justify;
         margin: 0;
-        padding: 50px 0 0 0;
+        padding: 30px 0 0 0;
     }
 
-    p {
-        margin: 0;
-        padding: 10px 0 0 0;
+    p {      
+        color: #737373;
         font-size: 19px;
-        line-height: 30px;
+        line-height: 35px;
         text-align: justify;
+        padding: 15px 0 0 0;
+        margin: 0;
     }
 
 `;
@@ -43,7 +49,7 @@ const FAQ = () => {
                 <title>Frequently asked questions</title>
                 <meta name="description" content="When will mass production of the Russian vaccine start?" />
             </Helmet> 
-             <h1>Frequently Asked Questions</h1>
+             <h1>Frequently asked questions</h1>
 
             <h2>When will mass production of the Russian vaccine start?</h2>
             <p>Mass production of the vaccine is expected to start in September 2020.</p>

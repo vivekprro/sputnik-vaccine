@@ -15,7 +15,7 @@ const AboutVaccine = () => {
                 <title>About Vaccines</title>
                 <meta name="description" content="The use of two vectors is a unique technology of The Gamaleya Center making Russian vaccine different from other adenovirus vector-based vaccine being developed globally" />
             </Helmet> 
-            <h1>Vaccine</h1>
+            <h1>About vaccine</h1>
             <img src={VectorCreation} alt='' />
             <img src={FirstVaccination} alt='' />
             <img src={secondVaccination} alt='' />

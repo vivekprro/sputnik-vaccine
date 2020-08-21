@@ -10,8 +10,11 @@ const VaccineStyle = Styled.div `
     padding: 0px 20px 30px 20px;
 
     h1 {
+        font-size: 23px;
+        line-height: 30px;
+        text-align: justify;
+        padding: 0px 0 0px 0;
         margin: 0;
-        padding: 0;
     }
 
     img {
@@ -23,13 +26,18 @@ const VaccineStyle = Styled.div `
         border-radius: 10px;
         background: rgb(198, 198, 236);
         margin: 0;
-        padding: 10px;
+        padding: 15px 20px;
     }
 
     div p {
         font-size: 18px;
+        font-weight: 500;
         text-align: justify;
-        color: rgb(66, 82, 224);
+        color:  #4f5de3;
+        line-height: 30px;
+        text-align: justify;
+        padding: 0;
+        margin: 0;
     }
 
 `;

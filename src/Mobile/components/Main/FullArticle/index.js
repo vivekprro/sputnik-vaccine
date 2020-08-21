@@ -4,8 +4,6 @@ import {Helmet} from "react-helmet";
 import FullArticlesStyle from './fullArticle.styled';
 
 const FullArticle = (props) => {
-    const image = props.image;
-    console.log(image);
     return (
         <FullArticlesStyle>
             <Helmet>
