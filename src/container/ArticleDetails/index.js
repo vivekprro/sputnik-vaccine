@@ -4,7 +4,7 @@ import Styled from 'styled-components'
 
 import MobileFullarticle from '../../Mobile/components/Main/FullArticle/index'
 
-import NewsData from '../../Data/newsData.json'
+import NewsData from '../../data/newsData.json'
 import Fullarticle from '../../components/Main/FullArticle/index'
 
 
