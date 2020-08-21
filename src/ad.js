@@ -1,0 +1,1 @@
+<script data-ad-client="ca-pub-5242256101841486" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
